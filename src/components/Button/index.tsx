@@ -17,7 +17,11 @@ export function CharacterButton({
         className={`button ${selected ? 'selected' : ''}`}
         onClick={onClick}
       >
-        <img src={imageSrc} alt={altText} />
+        <img
+          className="rounded-full max-w-[3.125rem] sm:max-w-[4rem] md:max-w-none"
+          src={imageSrc}
+          alt={altText}
+        />
       </button>
     </li>
   )

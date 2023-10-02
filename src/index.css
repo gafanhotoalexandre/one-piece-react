@@ -6,4 +6,34 @@
   article.selected {
     @apply block
   }
+
+  main::after {
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 80vw;
+  }
+
+  @media (max-width: 769px) {
+    main::after {
+      background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0) 65%) no-repeat;
+      width: 100vw;
+    }
+
+  }
+
+  .logo {
+    background-image: url("./assets/images/one-piece-logo.png");
+    @apply bg-cover w-[10.625rem] h-[4.7rem] md:h-[6.25rem] md:w-[14.375rem] mb-9
+  }
+  
+  .button {
+    @apply bg-black border-none rounded-full transition-all
+  }
+  .button.selected {
+    @apply scale-125 shadow-button shadow-slate-200
+  }
 }
