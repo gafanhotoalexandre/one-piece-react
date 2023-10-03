@@ -1,22 +1,28 @@
+import buttonChopperCrew from '../assets/images/tripulacao-chopper.png'
+import buttonZoroCrew from '../assets/images/tripulacao-zoro.png'
+import buttonLuffyCrew from '../assets/images/tripulacao-luffy.png'
+import buttonNamiCrew from '../assets/images/tripulacao-nami.png'
+import buttonSanjiCrew from '../assets/images/tripulacao-sanji.png'
+
 export const buttonsData = [
   {
-    imageSrc: 'src/assets/images/tripulacao-chopper.png',
+    imageSrc: buttonChopperCrew,
     altText: 'Logo da tripulação do Chopper',
   },
   {
-    imageSrc: 'src/assets/images/tripulacao-zoro.png',
+    imageSrc: buttonZoroCrew,
     altText: 'Logo da tripulação do Zoro',
   },
   {
-    imageSrc: 'src/assets/images/tripulacao-luffy.png',
+    imageSrc: buttonLuffyCrew,
     altText: 'Logo da tripulação do Luffy',
   },
   {
-    imageSrc: 'src/assets/images/tripulacao-nami.png',
+    imageSrc: buttonNamiCrew,
     altText: 'Logo da tripulação da Nami',
   },
   {
-    imageSrc: 'src/assets/images/tripulacao-sanji.png',
+    imageSrc: buttonSanjiCrew,
     altText: 'Logo da tripulação do Sanji',
   },
 ]
